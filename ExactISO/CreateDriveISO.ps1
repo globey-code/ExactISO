@@ -38,9 +38,16 @@ $WinPEAMD64 = "$ADKPath\Windows Preinstallation Environment\amd64"
 $WinPEMedia = "$WinPEAMD64\Media"
 $WinPEFW = "$WinPEAMD64\en-us\winpe.wim"
 
-# Create WinPE working directory and copy files
+# Create WinPE working directory
 New-Item -ItemType Directory -Force -Path $WinPEPath | Out-Null
-Copy-Item -Path $WinPEMedia -Destination $WinPEPath -Recurse -Force
+
+# Copy the contents of WinPE Media directly into $WinPEPath
+Copy-Item -Path "$WinPEMedia\*" -Destination $WinPEPath -Recurse -Force
+
+# Create sources directory under $WinPEPath
+New-Item -ItemType Directory -Force -Path "$WinPEPath\sources" | Out-Null
+
+# Copy winpe.wim to $WinPEPath\sources\boot.wim
 Copy-Item -Path $WinPEFW -Destination "$WinPEPath\sources\boot.wim" -Force
 
 # Mount WinPE WIM
@@ -51,6 +58,8 @@ dism /Mount-Image /ImageFile:"$WinPEPath\sources\boot.wim" /Index:1 /MountDir:$M
 # Add captured WIM to WinPE
 New-Item -ItemType Directory -Force -Path "$MountPath\sources" | Out-Null
 Copy-Item -Path $WimPath -Destination "$MountPath\sources\DriveCapture.wim" -Force
+
+# ... [Rest of Step 2 and Step 3 unchanged] ...
 
 # Create restore script for cloning
 $RestoreScript = @"

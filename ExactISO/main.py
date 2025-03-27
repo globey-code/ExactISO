@@ -24,7 +24,7 @@ class ISOCreatorGUI:
         self.root.title("ExactISO - Bootable ISO Creator")
 
         # Source drive input
-        tk.Label(root, text="Source Drive (e.g., C:\\):").grid(row=0, column=0, sticky='w')
+        tk.Label(root, text="Source Drive:").grid(row=0, column=0, sticky='w')
         self.source_drive = tk.Entry(root, width=30)
         self.source_drive.grid(row=0, column=1, padx=5, pady=5)
         tk.Button(root, text="Browse", command=self.select_source_drive).grid(row=0, column=2)

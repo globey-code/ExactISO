@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\KyleEul\\source\\repos\\ExactISO\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2E85ABCB-7001-4BE7-B4D4-E3FC504B5E43}|ExactISO\\ExactISO.pyproj|C:\\Users\\KyleEul\\source\\repos\\ExactISO\\ExactISO\\main.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2E85ABCB-7001-4BE7-B4D4-E3FC504B5E43}|ExactISO\\ExactISO.pyproj|solutionrelative:ExactISO\\main.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E85ABCB-7001-4BE7-B4D4-E3FC504B5E43}|ExactISO\\ExactISO.pyproj|C:\\Users\\KyleEul\\source\\repos\\ExactISO\\ExactISO\\CreateDriveISO.ps1||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{2E85ABCB-7001-4BE7-B4D4-E3FC504B5E43}|ExactISO\\ExactISO.pyproj|solutionrelative:ExactISO\\CreateDriveISO.ps1||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateDriveISO.ps1",
+              "DocumentMoniker": "C:\\Users\\KyleEul\\source\\repos\\ExactISO\\ExactISO\\CreateDriveISO.ps1",
+              "RelativeDocumentMoniker": "ExactISO\\CreateDriveISO.ps1",
+              "ToolTip": "C:\\Users\\KyleEul\\source\\repos\\ExactISO\\ExactISO\\CreateDriveISO.ps1",
+              "RelativeToolTip": "ExactISO\\CreateDriveISO.ps1",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAewGkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-27T13:47:29.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.py",
+              "DocumentMoniker": "C:\\Users\\KyleEul\\source\\repos\\ExactISO\\ExactISO\\main.py",
+              "RelativeDocumentMoniker": "ExactISO\\main.py",
+              "ToolTip": "C:\\Users\\KyleEul\\source\\repos\\ExactISO\\ExactISO\\main.py",
+              "RelativeToolTip": "ExactISO\\main.py",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAIwHIAAAATAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHfSURBVDhPpZCxaxNhGMZ/9zVJaUuDUlq1FBWLZBFTCXo4BFyU1qGKi4OkIHhkzF/g0KF00M2lR9YUdDDQQVAcJILoQUd1UNRmkhoRm8RL777v7nOoCZd4AcEH3uF5nvd73vd74X\u002BgtTai3LIsHeWDEEJct217a1DvwbIs7bpubFUqFW3b9naxWLwWfSOipAvHcfqqi0KhkMtms3cty1rsaomeG4FpmoMSANVqlXQ6nQMWgacMC4hOBchduEj\u002ByjKjScGh8SS1Wq3nxQZEN3j1eY/Vrfe8rTeQvsf89ARLS1cz5XIZ/uUGXxptQiVRUhJIybudXaZn52a7vbEBpmkyNb/A69YM9W8tDEJOTI2hpI\u002BSkvOZH2f13sNAB\u002B07sV9wHIdH9Unquz9RvoeUPtL3UFISKkky\u002BAT7HwTi6FpsgGma3N9\u002Bg5I\u002BKaFZyU8wOpJChwHnjiuE9wKCXyC/zsQGOI7DeELjtiUPbgky6Wd/HA3KBelC4AIpNfQGl88cQ0mfI5PugRhKkM2DUk0INYwtPI/dAGAlf4rbl06T6DyBVgeCABJzYPhwcm0V8ICNvwJKpVIf37h3IxSyKVAuBMDIYQAMw1jvaxwGrYNl3Xq5o79vat3Y3Nedj4\u002B11je7/m\u002BXOuyzFtDhUgAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-03-27T13:45:38.801Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
